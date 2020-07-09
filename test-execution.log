@@ -1,0 +1,27 @@
+2020-07-08 18:25:23.122  INFO 47304 --- [main] c.u.s.s.visatest.UserVisaTest            : Starting UserVisaTest on USGURAKASHSOO67 with PID 47304 (C:\Users\akash1\Documents\gitproject\spring-selenium\target\test-classes started by akash1 in C:\Users\akash1\Documents\gitproject\spring-selenium)
+2020-07-08 18:25:23.124  INFO 47304 --- [main] c.u.s.s.visatest.UserVisaTest            : No active profile set, falling back to default profiles: default
+2020-07-08 18:25:24.035  INFO 47304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-08 18:25:24.238  INFO 47304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 176ms. Found 1 JPA repository interfaces.
+2020-07-08 18:25:25.481  INFO 47304 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 18:25:25.511  INFO 47304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-08 18:25:25.904  INFO 47304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-08 18:25:26.122  INFO 47304 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-08 18:25:26.301  INFO 47304 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-08 18:25:26.802  INFO 47304 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-08 18:25:26.998  INFO 47304 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 83.0.4103.39 (since Google Chrome 83 is installed in your machine)
+2020-07-08 18:25:27.048  INFO 47304 --- [main] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\akash1\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39\chromedriver.exe
+2020-07-08 18:25:27.244  INFO 47304 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-08 18:25:28.803  INFO 47304 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-08 18:25:28.817  INFO 47304 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-08 18:25:30.225  INFO 47304 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2020-07-08 18:25:31.076  INFO 47304 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-08 18:25:32.224  INFO 47304 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-08 18:25:32.242  INFO 47304 --- [main] c.u.s.s.visatest.UserVisaTest            : Started UserVisaTest in 9.768 seconds (JVM running for 12.43)
+2020-07-08 18:25:36.537  INFO 47304 --- [main] c.u.s.s.page.visa.VisaRegistrationPage   : Setting names : Kraig
+2020-07-08 18:25:40.976  INFO 47304 --- [main] c.u.s.s.visatest.UserVisaTest            : Request Confirmation # INFO :: 9415232
+2020-07-08 18:25:41.041  WARN 47304 --- [main] c.u.s.s.visatest.UserVisaTest            : Request Confirmation # WARN :: 9415232
+2020-07-08 18:25:42.550  INFO 47304 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-08 18:25:42.551  INFO 47304 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-07-08 18:25:42.555  INFO 47304 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 18:25:42.556  INFO 47304 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-08 18:25:42.561  INFO 47304 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
